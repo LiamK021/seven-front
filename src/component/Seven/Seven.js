@@ -13,7 +13,7 @@ class Seven extends React.Component{
                     <SevenPost/>
                 </div>
                 <div className="seven-control-right">
-                    <img src= {sevenRight} alt = "" max-width = "100%"/>
+                    <img src= {sevenRight} alt = "" className="seven-control-image"/>
                 </div>
             </div>
         )

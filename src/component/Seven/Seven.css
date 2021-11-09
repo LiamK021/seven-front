@@ -26,3 +26,7 @@
     flex-direction: column;
     gap: 40px;
 }
+
+.seven-control-image{
+    max-width: 100%;
+}
