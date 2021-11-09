@@ -16,12 +16,27 @@
 
 .metaverse-control-left{
     flex: 30;
+    padding: 20px;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .metaverse-control-right{
     flex: 70;
+    padding: 20px;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .metaverse-control-image{
     max-width: 100%;
+    max-height: 100%;
 }

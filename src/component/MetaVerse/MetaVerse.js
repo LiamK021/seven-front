@@ -1,6 +1,8 @@
 import React from "react";
+import MetaVerseRight from "./MetaVerseRight";
 import './MetaVerse.css';
 import metaverseLeft from "../../asset/image/metaverseLeft.png"
+
 class MetaVerse extends React.Component{
     render(){
         return(
@@ -11,7 +13,7 @@ class MetaVerse extends React.Component{
                         <img className= "metaverse-control-image" src = {metaverseLeft} alt = ""/>
                     </div>
                     <div className = "metaverse-control-right">
-                        
+                        <MetaVerseRight/>
                     </div>
                 </div>
                 
