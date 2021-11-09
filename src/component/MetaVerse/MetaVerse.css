@@ -1,0 +1,27 @@
+.metaverse-control{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.metaverse-control-title{
+    font-size: 60px;
+}
+
+.metaverse-control-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.metaverse-control-left{
+    flex: 30;
+}
+
+.metaverse-control-right{
+    flex: 70;
+}
+
+.metaverse-control-image{
+    max-width: 100%;
+}
