@@ -47,25 +47,24 @@
     }
     .metaverse-control-left{
         flex: 30;
+        padding: 0px;
         padding-left: 20px;
         font-size: 60px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        gap: 40px;
     }
 
     .metaverse-control-right{
         flex: 70;
-        margin: 0;
+        padding: 0;
         padding-right: 20px;
         font-size: 60px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        gap: 40px;
     }
 
     .metaverse-control-image{
