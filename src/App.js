@@ -5,10 +5,12 @@ import './App.css';
 import LaunchLoadMap from './component/LaunchLoadMap/LaunchLoadMap';
 import DevelopmentLoadMap from './component/DevelopmentRoadMap/DevelopmentLoadMap';
 import Announcement from './component/Announcement/Announcement';
+import Seven from './component/Seven/Seven';
 
 function App() {
   return (
     <div className="App">
+      <Seven/>
       <LaunchLoadMap />
       <DevelopmentLoadMap />
       <Announcement />
