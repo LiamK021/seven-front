@@ -45,8 +45,31 @@
         padding: 10px;
         font-size: 40px;
     }
+    .metaverse-control-left{
+        flex: 30;
+        padding-left: 20px;
+        font-size: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .metaverse-control-right{
+        flex: 70;
+        margin: 0;
+        padding-right: 20px;
+        font-size: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+
     .metaverse-control-image{
-        max-width: 100%;
+        width: 100%;
         height: 80%;
     }
 }
