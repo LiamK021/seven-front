@@ -1,0 +1,10 @@
+.launch-loadmap-control {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.launch-loadmap-control h2 {
+    font-size: 60px;
+}
