@@ -30,3 +30,12 @@
 .seven-control-image{
     max-width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+    .seven-control{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

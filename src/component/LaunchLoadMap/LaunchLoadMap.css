@@ -8,3 +8,11 @@
 .launch-loadmap-control h2 {
     font-size: 60px;
 }
+
+@media only screen and (max-width: 600px) {
+    .launch-loadmap-control h2 {
+        padding: 10px;
+        font-size: 40px;
+    }
+    
+}

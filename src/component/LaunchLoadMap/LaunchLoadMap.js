@@ -93,16 +93,11 @@ class LaunchLoadMap extends React.Component {
                 <h2>PHASE 2.0 ROADMAP</h2>
                 {
                     this.state.loadmaps2 &&
-                    // this.state.loadmaps2.map((item, index) =>{
-                    //     return (
                             <LaunchLoadMapItem
-                            // key = {index}
                             percentage = ""
                             header = ""
                             content = {this.state.loadmaps2}
                             />
-                    //     )
-                    // })
                 }
             </div>
         );
