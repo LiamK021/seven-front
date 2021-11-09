@@ -7,6 +7,7 @@ import DevelopmentLoadMap from './component/DevelopmentRoadMap/DevelopmentLoadMa
 import Announcement from './component/Announcement/Announcement';
 import Seven from './component/Seven/Seven';
 import MetaVerse from './component/MetaVerse/MetaVerse';
+import ToKnow from './component/ToKnow/ToKnow';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Seven/>
       <hr/>
       <MetaVerse/>
+      <ToKnow/>
       <LaunchLoadMap />
       <DevelopmentLoadMap />
       <Announcement />
