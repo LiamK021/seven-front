@@ -1,5 +1,4 @@
 import React from "react";
-import ToKnowRight from "./ToKnowRight";
 class ToKnow extends React.Component{
     render(){
         return(
